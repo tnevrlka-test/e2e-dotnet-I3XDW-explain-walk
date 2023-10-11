@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-dotnet60-basic-nfcp
     spec:
       containers:
-      - image: dotnet-image:latest
+      - image: quay.io/redhat-appstudio-qe/rhtap-demo-xnlj-tenant/e2e-dotnet/devfile-sample-dotnet60-basic-nfcp@sha256:a972f2ecf973acf5df6f8a89d7e6ffd35b756b653f2fb441639a81c90a481548
         imagePullPolicy: Always
         name: main
         ports:
